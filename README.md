@@ -56,12 +56,12 @@ pod install
 ## 快速开始
 
 ```swift
+import UIKit
 import OCRKit
 
 class ViewController: UIViewController {
 
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         startScan()
     }
 
