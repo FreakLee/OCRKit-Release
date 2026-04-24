@@ -66,18 +66,17 @@ class ViewController: UIViewController {
     }
 
     func startScan() {
-        let config = OCRScannerConfig(mode: .bankCard)
-        let scanner = OCRScannerViewController(config: config)
-        scanner.onResult = { result in
-            switch result {
-            case .success(let card):
-                print("卡号：\(card.cardNumber ?? "未识别")")
-                print("有效期：\(card.expiryDate ?? "未识别")")
-            case .failure(let error):
+        Task {
+            do {
+                let result = try await OCRKitSDK.shared.scanBankCard(from: self)
+                print("卡号：\(result.info.cardNumber)")
+                print("发卡行：\(result.info.bankName ?? "未识别")")
+            } catch OCRError.cancelled {
+                // 用户取消
+            } catch {
                 print("识别失败：\(error)")
             }
         }
-        present(scanner, animated: true)
     }
 }
 ```
