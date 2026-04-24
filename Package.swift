@@ -11,7 +11,7 @@ let package = Package(
         .binaryTarget(
             name: "OCRKit",
             url: "https://github.com/FreakLee/OCRKit-Release/releases/download/v1.0.0/OCRKit.xcframework.zip",
-            checksum: "e21d9d5faf37daaddc0b309f9edde181ed3bcafe03bfaecd6be5da25aea1769f"
+            checksum: "ef59e3506c3deaef5b2f9af4e03021e9f19753c11212a8828b43b6279a7e5fb6"
         ),
     ]
 )
