@@ -36,7 +36,7 @@ targets: [
 在 `Podfile` 中添加：
 
 ```ruby
-pod 'OCRKit', '~> 1.0'
+pod 'OCRKit'
 ```
 
 然后运行：
