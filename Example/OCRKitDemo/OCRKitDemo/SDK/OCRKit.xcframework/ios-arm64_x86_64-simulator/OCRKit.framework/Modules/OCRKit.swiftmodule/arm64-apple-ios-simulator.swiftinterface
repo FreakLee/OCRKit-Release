@@ -1,0 +1,163 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OCRKit
+import AVFoundation
+import CoreImage
+import Foundation
+import PhotosUI
+import Swift
+import UIKit
+import Vision
+import VisionKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct BankCardInfo : Swift.Equatable {
+  public let cardNumber: Swift.String
+  public let rawCardNumber: Swift.String
+  public let bankName: Swift.String?
+  public let cardType: OCRKit.BankCardInfo.CardType?
+  public let cardholderName: Swift.String?
+  public enum CardType : Swift.String, Swift.CaseIterable, Swift.Equatable {
+    case debit
+    case credit
+    case prepaid
+    public var localizedName: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [OCRKit.BankCardInfo.CardType]
+    public typealias RawValue = Swift.String
+    public static var allCases: [OCRKit.BankCardInfo.CardType] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public init(cardNumber: Swift.String, rawCardNumber: Swift.String, bankName: Swift.String? = nil, cardType: OCRKit.BankCardInfo.CardType? = nil, cardholderName: Swift.String? = nil)
+  public static func == (a: OCRKit.BankCardInfo, b: OCRKit.BankCardInfo) -> Swift.Bool
+}
+public struct IDCardFrontInfo : Swift.Equatable {
+  public let name: Swift.String
+  public let gender: Swift.String
+  public let ethnicity: Swift.String
+  public let birthDate: Swift.String
+  public let birthYear: Swift.String
+  public let birthMonth: Swift.String
+  public let birthDay: Swift.String
+  public let address: Swift.String
+  public let idNumber: Swift.String
+  public init(name: Swift.String, gender: Swift.String, ethnicity: Swift.String, birthDate: Swift.String, birthYear: Swift.String, birthMonth: Swift.String, birthDay: Swift.String, address: Swift.String, idNumber: Swift.String)
+  public static func == (a: OCRKit.IDCardFrontInfo, b: OCRKit.IDCardFrontInfo) -> Swift.Bool
+}
+public struct IDCardBackInfo : Swift.Equatable {
+  public let issuingAuthority: Swift.String
+  public let validityPeriod: Swift.String
+  public let startDate: Swift.String?
+  public let endDate: Swift.String?
+  public let isLongTerm: Swift.Bool
+  public init(issuingAuthority: Swift.String, validityPeriod: Swift.String, startDate: Swift.String? = nil, endDate: Swift.String? = nil, isLongTerm: Swift.Bool = false)
+  public static func == (a: OCRKit.IDCardBackInfo, b: OCRKit.IDCardBackInfo) -> Swift.Bool
+}
+public enum OCRError : Foundation.LocalizedError, Swift.Equatable {
+  case invalidImage
+  case recognitionFailed(Swift.String)
+  case insufficientText
+  case parseFailure(field: Swift.String)
+  case sceneMismatch(expected: Swift.String, detected: Swift.String)
+  case cameraPermissionDenied
+  case photoLibraryPermissionDenied
+  case cancelled
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: OCRKit.OCRError, b: OCRKit.OCRError) -> Swift.Bool
+}
+final public class OCRKitSDK {
+  public static let shared: OCRKit.OCRKitSDK
+  public init()
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  @discardableResult
+  final public func recognizeIDCardFront(from image: UIKit.UIImage) async throws -> OCRKit.IDCardFrontInfo
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  @discardableResult
+  final public func recognizeIDCardBack(from image: UIKit.UIImage) async throws -> OCRKit.IDCardBackInfo
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  @discardableResult
+  final public func recognizeBankCard(from image: UIKit.UIImage) async throws -> OCRKit.BankCardInfo
+  #endif
+  public enum SceneType {
+    case idCard
+    case idCardFront
+    case idCardBack
+    case bankCard
+    public static func == (a: OCRKit.OCRKitSDK.SceneType, b: OCRKit.OCRKitSDK.SceneType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  final public func recognizeRawText(from image: UIKit.UIImage, scene: OCRKit.OCRKitSDK.SceneType = .idCard) async throws -> Swift.String
+  #endif
+  final public func recognizeIDCardFront(from image: UIKit.UIImage, completion: @escaping (Swift.Result<OCRKit.IDCardFrontInfo, OCRKit.OCRError>) -> Swift.Void)
+  final public func recognizeIDCardBack(from image: UIKit.UIImage, completion: @escaping (Swift.Result<OCRKit.IDCardBackInfo, OCRKit.OCRError>) -> Swift.Void)
+  final public func recognizeBankCard(from image: UIKit.UIImage, completion: @escaping (Swift.Result<OCRKit.BankCardInfo, OCRKit.OCRError>) -> Swift.Void)
+  @objc deinit
+}
+public struct OCRScannerResult<T> {
+  public let info: T
+  public let capturedImage: UIKit.UIImage?
+}
+extension OCRKit.OCRKitSDK {
+  public static func checkCameraPermission() -> Swift.Bool
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func requestCameraPermission() async -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @_Concurrency.MainActor final public func scanBankCard(from presenter: UIKit.UIViewController) async throws -> OCRKit.OCRScannerResult<OCRKit.BankCardInfo>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @_Concurrency.MainActor final public func scanIDCardFront(from presenter: UIKit.UIViewController) async throws -> OCRKit.OCRScannerResult<OCRKit.IDCardFrontInfo>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @_Concurrency.MainActor final public func scanIDCardBack(from presenter: UIKit.UIViewController) async throws -> OCRKit.OCRScannerResult<OCRKit.IDCardBackInfo>
+  #endif
+}
+public enum OCRLogger {
+  public enum Level : Swift.Int, Swift.Comparable {
+    case none
+    case error
+    case warning
+    case info
+    case debug
+    case verbose
+    public static func < (lhs: OCRKit.OCRLogger.Level, rhs: OCRKit.OCRLogger.Level) -> Swift.Bool
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public static var level: OCRKit.OCRLogger.Level
+  public static var onLog: ((_ level: OCRKit.OCRLogger.Level, _ message: Swift.String) -> Swift.Void)?
+  public static func error(_ message: @autoclosure () -> Swift.String, file: Swift.String = #fileID, line: Swift.Int = #line)
+  public static func warning(_ message: @autoclosure () -> Swift.String, file: Swift.String = #fileID, line: Swift.Int = #line)
+  public static func info(_ message: @autoclosure () -> Swift.String, file: Swift.String = #fileID, line: Swift.Int = #line)
+  public static func debug(_ message: @autoclosure () -> Swift.String, file: Swift.String = #fileID, line: Swift.Int = #line)
+  public static func verbose(_ message: @autoclosure () -> Swift.String, file: Swift.String = #fileID, line: Swift.Int = #line)
+  public static func log(_ msgLevel: OCRKit.OCRLogger.Level, _ message: @autoclosure () -> Swift.String, file: Swift.String = #fileID, line: Swift.Int = #line)
+}
+extension OCRKit.BankCardInfo.CardType : Swift.Hashable {}
+extension OCRKit.BankCardInfo.CardType : Swift.RawRepresentable {}
+extension OCRKit.OCRKitSDK.SceneType : Swift.Equatable {}
+extension OCRKit.OCRKitSDK.SceneType : Swift.Hashable {}
+extension OCRKit.OCRLogger.Level : Swift.Hashable {}
+extension OCRKit.OCRLogger.Level : Swift.RawRepresentable {}
