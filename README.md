@@ -88,12 +88,16 @@ class ViewController: UIViewController {
 ## 复杂场景
 
 **模糊 + 凸印卡**：浮雕数字光线不均匀，识别失败后自动切换增强模式，并显示拍照按钮让用户主动补拍。
+
 ![模糊](https://github.com/FreakLee/OCRKit-Release/blob/main/Example/Snapshots/MS.PNG)
+
 **倾斜拍摄**：内置透视矫正，歪着拍也能识别，最大支持 45° 倾斜。
+
 ![倾斜](https://github.com/FreakLee/OCRKit-Release/blob/main/Example/Snapshots/IDCard.PNG)
+
 **深色 / 低对比度卡**：自适应分析图像亮度和对比度，黑卡、白金卡各自使用不同的增强参数，不靠固定值硬猜。
+
 ![深色](https://github.com/FreakLee/OCRKit-Release/blob/main/Example/Snapshots/ABC.PNG)
-**卡号被遮一角**：多帧融合机制，几次识别结果互相"投票"，残缺信息拼出完整卡号。
 
 ---
 
