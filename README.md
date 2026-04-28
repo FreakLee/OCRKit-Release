@@ -95,7 +95,9 @@ class ViewController: UIViewController {
 
 ```xml
 <key>NSCameraUsageDescription</key>
-<string>需要访问相机以扫描银行卡</string>
+<string>需要访问相机以扫描身份证和银行卡</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>需要访问相册以选择身份证和银行卡图片</string>
 ```
 
 ---
