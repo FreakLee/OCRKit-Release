@@ -103,6 +103,31 @@ final class ViewController: UITableViewController {
                     }
                 }
             ),
+            Demo(
+                title: "二维码/条形码",
+                icon: "viewfinder",
+                action: { vc in
+                    Task { [weak vc] in
+                        guard let vc else { return }
+                        do {
+                            let result = try await OCRKitSDK.shared.scanQRCode(from: vc)
+                            let info = result.info
+                            vc.showScanResultPage(
+                                title: "二维码识别结果",
+                                image: result.capturedImage,
+                                items: [
+                                    ("码内容", info.payload),
+                                    ("码制名称", info.symbology),
+                                ]
+                            )
+                        } catch OCRError.cancelled {
+                            // 用户取消，无需处理
+                        } catch {
+                            vc.showError(error)
+                        }
+                    }
+                }
+            ),
         ]
         return list
     }()

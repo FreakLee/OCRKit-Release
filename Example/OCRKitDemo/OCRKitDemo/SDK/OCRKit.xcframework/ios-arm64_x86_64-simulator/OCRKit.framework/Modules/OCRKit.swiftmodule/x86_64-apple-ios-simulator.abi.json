@@ -837,6 +837,121 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "CodeScanResult",
+        "printedName": "CodeScanResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "payload",
+            "printedName": "payload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit14CodeScanResultV7payloadSSvp",
+            "mangledName": "$s6OCRKit14CodeScanResultV7payloadSSvp",
+            "moduleName": "OCRKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit14CodeScanResultV7payloadSSvg",
+                "mangledName": "$s6OCRKit14CodeScanResultV7payloadSSvg",
+                "moduleName": "OCRKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "symbology",
+            "printedName": "symbology",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit14CodeScanResultV9symbologySSvp",
+            "mangledName": "$s6OCRKit14CodeScanResultV9symbologySSvp",
+            "moduleName": "OCRKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit14CodeScanResultV9symbologySSvg",
+                "mangledName": "$s6OCRKit14CodeScanResultV9symbologySSvg",
+                "moduleName": "OCRKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6OCRKit14CodeScanResultV",
+        "mangledName": "$s6OCRKit14CodeScanResultV",
+        "moduleName": "OCRKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OCRKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "IDCardFrontInfo",
         "printedName": "IDCardFrontInfo",
         "children": [
@@ -2138,6 +2253,116 @@
           },
           {
             "kind": "Var",
+            "name": "reportContext",
+            "printedName": "reportContext",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit8OCRErrorO13reportContextSDyS2SGvp",
+            "mangledName": "$s6OCRKit8OCRErrorO13reportContextSDyS2SGvp",
+            "moduleName": "OCRKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit8OCRErrorO13reportContextSDyS2SGvg",
+                "mangledName": "$s6OCRKit8OCRErrorO13reportContextSDyS2SGvg",
+                "moduleName": "OCRKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit8OCRErrorO9errorCodeSSvp",
+            "mangledName": "$s6OCRKit8OCRErrorO9errorCodeSSvp",
+            "moduleName": "OCRKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit8OCRErrorO9errorCodeSSvg",
+                "mangledName": "$s6OCRKit8OCRErrorO9errorCodeSSvg",
+                "moduleName": "OCRKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "errorDescription",
             "printedName": "errorDescription",
             "children": [
@@ -2273,6 +2498,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "OCRKit"
       },
       {
         "kind": "Import",
@@ -3135,6 +3367,144 @@
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scanQRCode",
+            "printedName": "scanQRCode(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OCRScannerResult",
+                "printedName": "OCRKit.OCRScannerResult<OCRKit.CodeScanResult>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CodeScanResult",
+                    "printedName": "OCRKit.CodeScanResult",
+                    "usr": "s:6OCRKit14CodeScanResultV"
+                  }
+                ],
+                "usr": "s:6OCRKit16OCRScannerResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6OCRKit0A3SDKC10scanQRCode4fromAA16OCRScannerResultVyAA08CodeScanG0VGSo16UIViewControllerC_tYaKF",
+            "mangledName": "$s6OCRKit0A3SDKC10scanQRCode4fromAA16OCRScannerResultVyAA08CodeScanG0VGSo16UIViewControllerC_tYaKF",
+            "moduleName": "OCRKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit0A3SDKC7versionSSvpZ",
+            "mangledName": "$s6OCRKit0A3SDKC7versionSSvpZ",
+            "moduleName": "OCRKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit0A3SDKC7versionSSvgZ",
+                "mangledName": "$s6OCRKit0A3SDKC7versionSSvgZ",
+                "moduleName": "OCRKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullVersion",
+            "printedName": "fullVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit0A3SDKC11fullVersionSSvpZ",
+            "mangledName": "$s6OCRKit0A3SDKC11fullVersionSSvpZ",
+            "moduleName": "OCRKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit0A3SDKC11fullVersionSSvgZ",
+                "mangledName": "$s6OCRKit0A3SDKC11fullVersionSSvgZ",
+                "moduleName": "OCRKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -3283,6 +3653,363 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "OCRKitVersion",
+        "printedName": "OCRKitVersion",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "major",
+            "printedName": "major",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit0A7VersionO5majorSivpZ",
+            "mangledName": "$s6OCRKit0A7VersionO5majorSivpZ",
+            "moduleName": "OCRKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit0A7VersionO5majorSivgZ",
+                "mangledName": "$s6OCRKit0A7VersionO5majorSivgZ",
+                "moduleName": "OCRKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minor",
+            "printedName": "minor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit0A7VersionO5minorSivpZ",
+            "mangledName": "$s6OCRKit0A7VersionO5minorSivpZ",
+            "moduleName": "OCRKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit0A7VersionO5minorSivgZ",
+                "mangledName": "$s6OCRKit0A7VersionO5minorSivgZ",
+                "moduleName": "OCRKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "patch",
+            "printedName": "patch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit0A7VersionO5patchSivpZ",
+            "mangledName": "$s6OCRKit0A7VersionO5patchSivpZ",
+            "moduleName": "OCRKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit0A7VersionO5patchSivgZ",
+                "mangledName": "$s6OCRKit0A7VersionO5patchSivgZ",
+                "moduleName": "OCRKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit0A7VersionO6stringSSvpZ",
+            "mangledName": "$s6OCRKit0A7VersionO6stringSSvpZ",
+            "moduleName": "OCRKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit0A7VersionO6stringSSvgZ",
+                "mangledName": "$s6OCRKit0A7VersionO6stringSSvgZ",
+                "moduleName": "OCRKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buildNumber",
+            "printedName": "buildNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit0A7VersionO11buildNumberSSvpZ",
+            "mangledName": "$s6OCRKit0A7VersionO11buildNumberSSvpZ",
+            "moduleName": "OCRKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit0A7VersionO11buildNumberSSvgZ",
+                "mangledName": "$s6OCRKit0A7VersionO11buildNumberSSvgZ",
+                "moduleName": "OCRKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullDescription",
+            "printedName": "fullDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6OCRKit0A7VersionO15fullDescriptionSSvpZ",
+            "mangledName": "$s6OCRKit0A7VersionO15fullDescriptionSSvpZ",
+            "moduleName": "OCRKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6OCRKit0A7VersionO15fullDescriptionSSvgZ",
+                "mangledName": "$s6OCRKit0A7VersionO15fullDescriptionSSvgZ",
+                "moduleName": "OCRKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6OCRKit0A7VersionO",
+        "mangledName": "$s6OCRKit0A7VersionO",
+        "moduleName": "OCRKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "OCRKitBinaryVersion",
+        "printedName": "OCRKitBinaryVersion",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:6OCRKit0A13BinaryVersionSSvp",
+        "mangledName": "$s6OCRKit0A13BinaryVersionSSvp",
+        "moduleName": "OCRKit",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:6OCRKit0A13BinaryVersionSSvg",
+            "mangledName": "$s6OCRKit0A13BinaryVersionSSvg",
+            "moduleName": "OCRKit",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OCRKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -3364,6 +4091,13 @@
         "kind": "Import",
         "name": "PhotosUI",
         "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "OCRKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
         "declKind": "Import",
         "moduleName": "OCRKit"
       },
@@ -4535,28 +5269,28 @@
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Core\/TextRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 949,
+      "offset": 893,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Core\/TextRecognizer.swift",
       "kind": "FloatLiteral",
-      "offset": 1056,
+      "offset": 1000,
       "length": 5,
       "value": "0.015"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Core\/TextRecognizer.swift",
       "kind": "FloatLiteral",
-      "offset": 3901,
+      "offset": 3845,
       "length": 5,
       "value": "0.025"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Core\/TextRecognizer.swift",
       "kind": "FloatLiteral",
-      "offset": 4827,
+      "offset": 4771,
       "length": 5,
       "value": "0.025"
     },
@@ -4612,30 +5346,128 @@
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKit.swift",
       "kind": "BooleanLiteral",
-      "offset": 1478,
+      "offset": 1498,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKit.swift",
       "kind": "Array",
-      "offset": 1726,
+      "offset": 1746,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKit.swift",
       "kind": "Array",
-      "offset": 1827,
+      "offset": 1847,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKit.swift",
       "kind": "StringLiteral",
-      "offset": 27728,
+      "offset": 31896,
       "length": 26,
       "value": "\"OCRKit.ScannerContinuationAdapter\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 995,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1032,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1069,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 1343,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 1352,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 1361,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 1370,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 1749,
+      "length": 5,
+      "value": "\"dev\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 1875,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 1885,
+      "length": 1,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 1901,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 2276,
+      "length": 75,
+      "value": "\"OCRKit_VERSION=\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 2315,
+      "length": 5,
+      "value": "\" BUILD=\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 2350,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
@@ -5228,21 +6060,21 @@
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/CameraManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1078,
+      "offset": 1142,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/CameraManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5358,
+      "offset": 7160,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/CameraManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6152,
+      "offset": 7954,
       "length": 5,
       "value": "false"
     },
@@ -5298,63 +6130,63 @@
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2803,
+      "offset": 4384,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2880,
+      "offset": 4461,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3225,
+      "offset": 4806,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3259,
+      "offset": 4840,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3387,
+      "offset": 4968,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3752,
+      "offset": 5333,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4088,
+      "offset": 5669,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4390,
+      "offset": 5971,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2341,
+      "offset": 3922,
       "length": 24,
       "value": "\"OCRKit.OCRScannerViewController\""
     },
@@ -5557,7 +6389,7 @@
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/ScannerOverlayView.swift",
       "kind": "BooleanLiteral",
-      "offset": 16223,
+      "offset": 16847,
       "length": 4,
       "value": "true"
     },
@@ -5690,7 +6522,28 @@
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Utils\/OCRLogger.swift",
       "kind": "StringLiteral",
-      "offset": 3171,
+      "offset": 1195,
+      "length": 95,
+      "value": "\"[OCRKit] [INFO]  OCRKit v\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Utils\/OCRLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 23,
+      "value": "\" 日志已启用（level=\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Utils\/OCRLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1286,
+      "length": 3,
+      "value": "\"）\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Utils\/OCRLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 3545,
       "length": 12,
       "value": "\"OCR Result\""
     },

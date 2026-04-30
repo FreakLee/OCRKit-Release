@@ -38,6 +38,10 @@ public struct BankCardInfo : Swift.Equatable {
   public init(cardNumber: Swift.String, rawCardNumber: Swift.String, bankName: Swift.String? = nil, cardType: OCRKit.BankCardInfo.CardType? = nil, cardholderName: Swift.String? = nil)
   public static func == (a: OCRKit.BankCardInfo, b: OCRKit.BankCardInfo) -> Swift.Bool
 }
+public struct CodeScanResult {
+  public let payload: Swift.String
+  public let symbology: Swift.String
+}
 public struct IDCardFrontInfo : Swift.Equatable {
   public let name: Swift.String
   public let gender: Swift.String
@@ -69,6 +73,12 @@ public enum OCRError : Foundation.LocalizedError, Swift.Equatable {
   case cameraPermissionDenied
   case photoLibraryPermissionDenied
   case cancelled
+  public var reportContext: [Swift.String : Swift.String] {
+    get
+  }
+  public var errorCode: Swift.String {
+    get
+  }
   public var errorDescription: Swift.String? {
     get
   }
@@ -130,6 +140,26 @@ extension OCRKit.OCRKitSDK {
   #if compiler(>=5.3) && $AsyncAwait
   @_Concurrency.MainActor final public func scanIDCardBack(from presenter: UIKit.UIViewController) async throws -> OCRKit.OCRScannerResult<OCRKit.IDCardBackInfo>
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @_Concurrency.MainActor final public func scanQRCode(from presenter: UIKit.UIViewController) async throws -> OCRKit.OCRScannerResult<OCRKit.CodeScanResult>
+  #endif
+}
+public enum OCRKitVersion {
+  public static let major: Swift.Int
+  public static let minor: Swift.Int
+  public static let patch: Swift.Int
+  public static let string: Swift.String
+  public static let buildNumber: Swift.String
+  public static let fullDescription: Swift.String
+}
+public let OCRKitBinaryVersion: Swift.String
+extension OCRKit.OCRKitSDK {
+  public static var version: Swift.String {
+    get
+  }
+  public static var fullVersion: Swift.String {
+    get
+  }
 }
 public enum OCRLogger {
   public enum Level : Swift.Int, Swift.Comparable {
@@ -146,7 +176,10 @@ public enum OCRLogger {
       get
     }
   }
-  public static var level: OCRKit.OCRLogger.Level
+  public static var level: OCRKit.OCRLogger.Level {
+    get
+    set
+  }
   public static var onLog: ((_ level: OCRKit.OCRLogger.Level, _ message: Swift.String) -> Swift.Void)?
   public static func error(_ message: @autoclosure () -> Swift.String, file: Swift.String = #fileID, line: Swift.Int = #line)
   public static func warning(_ message: @autoclosure () -> Swift.String, file: Swift.String = #fileID, line: Swift.Int = #line)
