@@ -4072,6 +4072,23 @@
       },
       {
         "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "OCRKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "OCRKit"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5367,7 +5384,7 @@
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKit.swift",
       "kind": "StringLiteral",
-      "offset": 31896,
+      "offset": 37525,
       "length": 26,
       "value": "\"OCRKit.ScannerContinuationAdapter\""
     },
@@ -5390,7 +5407,7 @@
       "kind": "IntegerLiteral",
       "offset": 1069,
       "length": 1,
-      "value": "0"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/OCRKitVersion.swift",
@@ -5514,539 +5531,637 @@
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 27880,
+      "offset": 28661,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 30539,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 28358,
+      "offset": 31017,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "Array",
-      "offset": 28387,
+      "offset": 31046,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 28499,
+      "offset": 31158,
       "length": 12,
       "value": "\"0123456789\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 29280,
+      "offset": 31939,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29319,
+      "offset": 31978,
       "length": 61,
       "value": "\"位置\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29335,
+      "offset": 31994,
       "length": 12,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29346,
+      "offset": 32005,
       "length": 5,
       "value": "\"'→'\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29361,
+      "offset": 32020,
       "length": 21,
       "value": "\"'(dist=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29378,
+      "offset": 32037,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29430,
+      "offset": 32089,
       "length": 4,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29466,
+      "offset": 32125,
       "length": 85,
       "value": "\"Luhn单位修正: 发现\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29505,
+      "offset": 32164,
       "length": 15,
       "value": "\"个可行修正(\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29528,
+      "offset": 32187,
       "length": 1,
       "value": "\")，放弃以免误改\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 29612,
+      "offset": 32271,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29639,
+      "offset": 32298,
       "length": 124,
       "value": "\"Luhn单位修正: 位置\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29675,
+      "offset": 32334,
       "length": 14,
       "value": "\" '\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29689,
+      "offset": 32348,
       "length": 5,
       "value": "\"'→'\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29706,
+      "offset": 32365,
       "length": 58,
       "value": "\"' dist=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29725,
+      "offset": 32384,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 29738,
+      "offset": 32397,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29742,
+      "offset": 32401,
       "length": 14,
       "value": "\" (BIN保护)\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29759,
+      "offset": 32418,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 29762,
+      "offset": 32421,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "Dictionary",
-      "offset": 35116,
-      "length": 609,
-      "value": "[(\"O\", \"0\"), (\"o\", \"0\"), (\"D\", \"0\"), (\"I\", \"1\"), (\"i\", \"1\"), (\"l\", \"1\"), (\"L\", \"1\"), (\"！\", \"1\"), (\"Z\", \"2\"), (\"z\", \"2\"), (\"$\", \"2\"), (\"e\", \"2\"), (\"E\", \"3\"), (\"A\", \"4\"), (\"H\", \"4\"), (\"S\", \"5\"), (\"s\", \"5\"), (\"G\", \"6\"), (\"b\", \"6\"), (\"f\", \"6\"), (\"h\", \"6\"), (\"T\", \"7\"), (\"B\", \"8\"), (\"g\", \"9\"), (\"q\", \"9\")]"
+      "offset": 37798,
+      "length": 639,
+      "value": "[(\"O\", \"0\"), (\"o\", \"0\"), (\"D\", \"0\"), (\"I\", \"1\"), (\"i\", \"1\"), (\"l\", \"1\"), (\"L\", \"1\"), (\"！\", \"1\"), (\"Z\", \"2\"), (\"z\", \"2\"), (\"$\", \"2\"), (\"e\", \"2\"), (\"E\", \"3\"), (\"A\", \"4\"), (\"H\", \"4\"), (\"#\", \"4\"), (\"S\", \"5\"), (\"s\", \"5\"), (\"G\", \"6\"), (\"b\", \"6\"), (\"f\", \"6\"), (\"h\", \"6\"), (\"T\", \"7\"), (\"B\", \"8\"), (\"g\", \"9\"), (\"q\", \"9\")]"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 36325,
+      "offset": 39037,
       "length": 3,
       "value": "\"B\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 36332,
+      "offset": 39044,
       "length": 3,
       "value": "\"6\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 44336,
+      "offset": 47048,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "Array",
-      "offset": 46092,
+      "offset": 48804,
       "length": 757,
       "value": "[\"BANK\", \"CHINA\", \"CONSTRUCTION\", \"AGRICULTURAL\", \"INDUSTRIAL\", \"POSTAL\", \"COMMERCIAL\", \"COMMUNICATIONS\", \"MERCHANTS\", \"MINSHENG\", \"GUANGFA\", \"PING\", \"CITIC\", \"EVERBRIGHT\", \"HUAXIA\", \"BOCOM\", \"SPDB\", \"SHANGHAI\", \"PUDONG\", \"DEVELOPMENT\", \"UNIONPAY\", \"VISA\", \"MASTERCARD\", \"JCB\", \"AMEX\", \"GOLD\", \"PLATINUM\", \"CREDIT\", \"DEBIT\", \"CARD\", \"CLASSIC\", \"ELITE\", \"VALID\", \"THRU\", \"FROM\", \"MONTH\", \"YEAR\", \"EXPIRES\", \"EXP\", \"AUTHORIZED\", \"SIGNATURE\", \"SIGNED\", \"UNLESS\", \"NOT\", \"CALL\", \"HOURS\", \"SERVICE\", \"CONCIERGE\", \"OVERSEAS\", \"SAVINGS\", \"WEALTH\", \"MANAGEMENT\", \"FAMILY\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50462,
+      "offset": 53174,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "Dictionary",
-      "offset": 50661,
+      "offset": 53373,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 50917,
+      "offset": 53629,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50985,
+      "offset": 53697,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 51579,
+      "offset": 54452,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 52181,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 52187,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 52451,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 52457,
+      "offset": 54674,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 52974,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "Dictionary",
-      "offset": 53034,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 53107,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 53247,
+      "offset": 54790,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 53253,
+      "offset": 55139,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55145,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 53372,
+      "offset": 55409,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55415,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56064,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "Dictionary",
+      "offset": 56124,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56182,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56381,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56387,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56506,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 53398,
+      "offset": 56532,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 53456,
-      "length": 80,
+      "offset": 56590,
+      "length": 77,
       "value": "\"融合补救: 位置0从\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 53494,
-      "length": 27,
-      "value": "\"个短片段首位推断为 '\""
+      "offset": 56628,
+      "length": 24,
+      "value": "\"个片段首位推断为 '\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 53534,
+      "offset": 56665,
       "length": 3,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "StringLiteral",
-      "offset": 53644,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "Array",
-      "offset": 53711,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 53734,
+      "offset": 57312,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 53876,
+      "offset": 57394,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 57489,
+      "length": 3,
+      "value": "\"?\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 57547,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57575,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "StringLiteral",
-      "offset": 53917,
-      "length": 43,
-      "value": "\"融合失败: 位置\""
+      "kind": "BooleanLiteral",
+      "offset": 57802,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 53944,
-      "length": 15,
-      "value": "\"无投票数据\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "StringLiteral",
-      "offset": 54234,
-      "length": 70,
-      "value": "\"融合结果 \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "StringLiteral",
-      "offset": 54275,
-      "length": 27,
-      "value": "\" 未通过卡号前缀校验\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "StringLiteral",
-      "offset": 54438,
-      "length": 89,
-      "value": "\"多帧融合成功: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "StringLiteral",
-      "offset": 54486,
-      "length": 1,
-      "value": "\" (\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "StringLiteral",
-      "offset": 54506,
-      "length": 9,
-      "value": "\"个片段, Luhn=✓)\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "Array",
-      "offset": 55500,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 55562,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 55670,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 55820,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
-      "kind": "StringLiteral",
-      "offset": 55872,
+      "offset": 57914,
       "length": 12,
       "value": "\"0123456789\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 56173,
+      "offset": 58156,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 58198,
+      "length": 67,
+      "value": "\"融合Luhn单点补救: 位置\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 58242,
+      "length": 15,
+      "value": "\"唯一推断为 '\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 58263,
+      "length": 3,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 58443,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "Array",
+      "offset": 58510,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 58533,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 58675,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 56900,
+      "offset": 58716,
+      "length": 43,
+      "value": "\"融合失败: 位置\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 58743,
+      "length": 15,
+      "value": "\"无投票数据\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 59033,
+      "length": 70,
+      "value": "\"融合结果 \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 59074,
+      "length": 27,
+      "value": "\" 未通过卡号前缀校验\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 59237,
+      "length": 89,
+      "value": "\"多帧融合成功: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 59285,
+      "length": 1,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 59305,
+      "length": 9,
+      "value": "\"个片段, Luhn=✓)\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "Array",
+      "offset": 60299,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 60361,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 60469,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 60619,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 60671,
+      "length": 12,
+      "value": "\"0123456789\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 60972,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
+      "kind": "StringLiteral",
+      "offset": 61699,
       "length": 215,
       "value": "\"多帧融合+Luhn修正: 位置\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 56948,
+      "offset": 61747,
       "length": 18,
       "value": "\" '\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 56966,
+      "offset": 61765,
       "length": 5,
       "value": "\"'→'\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 56987,
+      "offset": 61786,
       "length": 129,
       "value": "\"' (新票=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 57018,
+      "offset": 61817,
       "length": 1,
       "value": "\", 旧票=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 57048,
+      "offset": 61847,
       "length": 1,
       "value": "\") → \""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 57084,
+      "offset": 61883,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 57104,
+      "offset": 61903,
       "length": 9,
       "value": "\"个片段)\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 57286,
+      "offset": 62085,
       "length": 88,
       "value": "\"多帧融合(Luhn未通过): \""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 57343,
+      "offset": 62142,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/BankCardParser.swift",
       "kind": "StringLiteral",
-      "offset": 57363,
+      "offset": 62162,
       "length": 9,
       "value": "\"个片段)\""
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Parsers\/IDCardFrontParser.swift",
       "kind": "Array",
-      "offset": 9221,
+      "offset": 10308,
       "length": 189,
       "value": "[\"住址\", \"住 址\", \"住所\", \"住 所\", \"佳址\", \"佳 址\", \"住扯\", \"住 扯\", \"往址\", \"往 址\"]"
     },
@@ -6128,6 +6243,69 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/FrameQualityAnalyzer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1415,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/FrameQualityAnalyzer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1429,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/FrameQualityAnalyzer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1446,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/FrameQualityAnalyzer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1467,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/FrameQualityAnalyzer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1620,
+      "length": 4,
+      "value": "0.04"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/FrameQualityAnalyzer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1738,
+      "length": 4,
+      "value": "0.07"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/FrameQualityAnalyzer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1844,
+      "length": 4,
+      "value": "0.65"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/FrameQualityAnalyzer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1986,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/FrameQualityAnalyzer.swift",
+      "kind": "FloatLiteral",
+      "offset": 2128,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4384,
@@ -6137,49 +6315,56 @@
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4461,
+      "offset": 4542,
       "length": 1,
-      "value": "3"
+      "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4806,
+      "offset": 4887,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4840,
+      "offset": 4921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4968,
+      "offset": 5049,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5333,
+      "offset": 5414,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5716,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5669,
+      "offset": 6178,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/OCRScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5971,
+      "offset": 6480,
       "length": 5,
       "value": "false"
     },
@@ -6389,7 +6574,7 @@
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/UI\/ScannerOverlayView.swift",
       "kind": "BooleanLiteral",
-      "offset": 16847,
+      "offset": 17730,
       "length": 4,
       "value": "true"
     },
@@ -6543,7 +6728,14 @@
     {
       "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Utils\/OCRLogger.swift",
       "kind": "StringLiteral",
-      "offset": 3545,
+      "offset": 2775,
+      "length": 14,
+      "value": "\"HH:mm:ss.SSS\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/OCRKit\/OCRKit\/Sources\/OCRKit\/Utils\/OCRLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 3884,
       "length": 12,
       "value": "\"OCR Result\""
     },

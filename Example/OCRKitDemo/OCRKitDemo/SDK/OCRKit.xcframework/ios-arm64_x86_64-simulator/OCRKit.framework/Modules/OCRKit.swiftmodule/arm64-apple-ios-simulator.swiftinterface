@@ -3,6 +3,8 @@
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OCRKit
 import AVFoundation
 import CoreImage
+import CoreMedia
+import CoreVideo
 import Foundation
 import PhotosUI
 import Swift

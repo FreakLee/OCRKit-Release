@@ -30,7 +30,7 @@ https://github.com/FreakLee/OCRKit-Release
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/FreakLee/OCRKit-Release", from: "1.1.0"),
+    .package(url: "https://github.com/FreakLee/OCRKit-Release", from: "1.1.1"),
 ],
 targets: [
     .target(name: "YourApp", dependencies: ["OCRKit"]),
