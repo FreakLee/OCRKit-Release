@@ -92,6 +92,7 @@ class ViewController: UIViewController {
 ## 速度
 
 常规卡基本秒识别。
+
 ![速度](https://github.com/FreakLee/OCRKit-Release/blob/main/Example/Snapshots/SD.JPG)
 
 ---
@@ -113,12 +114,15 @@ class ViewController: UIViewController {
 ---
 
 ## 顶级场景
+
 自有卡片30多张，以及网上试过超百张卡片，属我的中行卡最难。
 
 **中行弱光情况下:**
+
 ![中行_dark](https://github.com/FreakLee/OCRKit-Release/blob/main/Example/Snapshots/BOC_dark.JPG)
 
 **中行强光情况下:**
+
 ![中行_light](https://github.com/FreakLee/OCRKit-Release/blob/main/Example/Snapshots/BOC_light.JPG)
 
 ---
@@ -142,26 +146,33 @@ class ViewController: UIViewController {
 ---
 
 ## 一个有意思的偶发现象
+
 晚上关闭灯光，仅靠电脑屏幕和手机手电筒，上面那张复杂民生卡在这个 SDK 里可以识别成功，而微信连续错了两次。
 
 **当时的环境：**
+
 ![背景](https://github.com/FreakLee/OCRKit-Release/blob/main/Example/Snapshots/BJ_dark.JPG)
 
 **本 SDK 识别结果：**
+
 ![民生_暗光](https://github.com/FreakLee/OCRKit-Release/blob/main/Example/Snapshots/MS_dark.JPG)
 
 **微信添加银行卡识别结果：**
 
 * 微信一
+
 ![微信一](https://github.com/FreakLee/OCRKit-Release/blob/main/Example/Snapshots/WeChat_1.JPG)
 
 * 微信二
+
 ![微信二](https://github.com/FreakLee/OCRKit-Release/blob/main/Example/Snapshots/WeChat_2.JPG)
 
 ---
 
 ## 文章介绍
+
 1.[iOS 银行卡识别，我把最难的部分都替你踩过了](https://mp.weixin.qq.com/s/NRMe4QRZFA-radsw2XeOcQ)
+
 2.[两个改动，让这个iOS SDK识别成功率翻了一倍](https://mp.weixin.qq.com/s/AnZRUtEvdmlDVMY-UQi0ig)
 
 ## 版本历史
